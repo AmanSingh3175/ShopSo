@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">shopso</string>
+
+    <string name="firstSlide">Choose Your Products</string>
+    <string name="secondSlide">Fast Delivery</string>
+    <string name="thirdSlide">Good Service</string>
+
+    <string name="description">Instead of going to the local malls for a shopping spree, more and more people are using the variety of online resources to discover the right products for them. From giants like Amazon to small Etsy stores, online shopping is the future of consumerism! If you’re also interested in taking the plunge into the e-commerce world, then an online store would be just the thing.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="popular_products">Popular Products</string>
+    <string name="browse_category">Browse Category</string>
+    <string name="product_descrpt">To carry out a handsome look in your next party,You must have a look at Blazers for stylish people</string>
+</resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "579111520122",
+    "project_id": "shopso-7b795",
+    "storage_bucket": "shopso-7b795.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:579111520122:android:20a4ac3f313c63513e38c3",
+        "android_client_info": {
+          "package_name": "com.example.shopso"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "579111520122-jn4np99hg1laicmguicbp3m4a5bedouu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrbZDz8Rpq44w_weaio07_sxBvf9FBBVE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "579111520122-jn4np99hg1laicmguicbp3m4a5bedouu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

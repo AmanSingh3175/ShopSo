@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:background="@drawable/bground">
+
+    <TextView
+        android:id="@+id/LoginPage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log In"
+        android:textSize="40sp"
+        android:layout_marginTop="100dp"
+        android:textColor="@color/teal_200"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.2"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+
+    <EditText
+        android:id="@+id/mail"
+        android:background="@drawable/edit_text_bgshape"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:padding="15dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LoginPage"
+        app:layout_constraintWidth_percent=".8"
+        android:textSize="20dp"
+        android:drawableLeft="@drawable/mail_img"
+
+        android:drawablePadding="10dp"
+        android:elevation="3dp"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:background="@drawable/edit_text_bgshape"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:padding="15dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mail"
+        app:layout_constraintWidth_percent=".8"
+        android:textSize="20dp"
+        android:drawableLeft="@drawable/password_img"
+
+        android:drawablePadding="10dp"
+        android:elevation="3dp"/>
+
+    <Button
+        android:id="@+id/logInBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password"
+        app:layout_constraintVertical_bias=".2"
+        android:textStyle="bold"
+        android:text="Log In"
+        android:textSize="18dp"
+        android:onClick="login"/>
+
+    <TextView
+        android:id="@+id/txtview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Not a User?"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.396"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logInBtn"
+        app:layout_constraintVertical_bias="0.126" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@+id/txtview"
+        app:layout_constraintTop_toTopOf="@+id/txtview"
+        app:layout_constraintBottom_toBottomOf="@+id/txtview"
+        android:textStyle="bold"
+        android:textColor="@color/teal_200"
+        android:text="Sign Up"
+        android:textSize="18dp"
+        android:onClick="signUp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
